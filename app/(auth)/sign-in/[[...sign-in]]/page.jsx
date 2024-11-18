@@ -72,7 +72,9 @@ export default function Page() {
           </p>
         </div>
 
-        <SignIn />
+        <SignIn 
+          redirectUrl="/Dashboard"
+         />
       </div>
     </main>
   </div>
